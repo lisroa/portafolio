@@ -1,0 +1,259 @@
+body {
+  background-color: rgb(237, 235, 235);
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.columa1.columna2 {
+  width: 50%;
+}
+
+
+.columna1 {
+  margin-left: 30px;
+  margin-top: 4.5%;
+}
+
+/* Estilos de presentacion*/
+
+.presentation {
+  width: 400px;
+  min-height: 400px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+} 
+
+.containerPhoto{
+  text-align: center;
+ 
+}
+
+.profilePhoto {
+  width: 200px;
+  height: 200px;
+}
+
+.name {
+  font-size: 20px;
+  margin-left: 18px;
+}
+
+.position {
+  margin-top: 0;
+  font-size: 15px;
+}
+
+.description {
+font-size: 25px;
+}
+
+/*Estilos de experiencia*/
+
+.experiences {
+  width: 380px;
+  min-height: 250px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+ text-align: center;
+}
+
+.logoRuda{
+text-align: center;
+width: 100px;
+height: 100px;
+}
+
+.tittle {
+  font-size: 18px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.ruda {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+/* Estilos de la seccion de Hobbies*/
+
+.containerHobbies {
+  width: 380px;
+  min-height: 250px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.tittleHobbies{
+  font-size: 18px;
+}
+
+.imagesHobbies {
+  width: 200px;
+  height: 110px;
+  border-radius: 5px;
+}
+
+.hobbies {
+  font-size: 15px;
+}
+
+.description {
+  font-size: 15px;
+}
+/* Estilos de la columna dos*/
+
+.columna2{
+  margin-left: 3%;
+}
+
+/* Styles for progress bar */
+
+h3 {
+  text-align: center;
+}
+p {
+  margin: 5px;
+}
+
+.skills {
+  width: 600px;
+  height: 280px;
+  margin: 60px auto;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 0px;
+}
+
+.skills div{
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.bar {
+  background: #e2e5ec;
+  display: block;
+  height: 10px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.bar span{
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgb(46, 125, 252)0%, rgb(43, 124, 246)100%);
+}
+
+.react {
+  width: 60%;
+  animation: react 3s;
+}
+.html {
+  width: 90%;
+  animation: html 3s;
+}
+.css {
+  width: 60%;
+  animation: css 3s;
+}
+.javascript {
+  width: 70%;
+  animation: javascript 3s;
+}
+
+
+
+
+/*Estilos presentacion de proyectos*/
+
+.tittle2{
+  width: 600px;
+  height: 40px;
+  background-color: white;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.projects {
+  width: 600px;
+  height: 200px;
+  background-color: white;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+.containerProjects1 {
+height: 100%;
+width: 50%;
+}
+
+.imageProject{
+  width: 290px;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.containerProjects2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+.description {
+  margin-left: 20px;
+}
+
+.technologies {
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+
+.buttons {
+  margin-left: 25px;
+}
+
+.buttonDemo {
+background-color: rgb(0, 136, 255);
+width: 100px;
+height: 40px;
+border: none;
+border-radius: 10px;
+color: white;
+cursor: pointer;
+}
+
+.buttonCode {
+background-color: transparent;
+width: 100px;
+height: 40px;
+border: rgb(0, 136, 255) 1px solid;
+border-radius: 10px;
+color: rgb(0, 136, 255);
+margin-left: 5px;
+cursor: pointer;
+}
+
